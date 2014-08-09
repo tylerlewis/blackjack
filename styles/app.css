@@ -1,5 +1,6 @@
 .card {
   float: left;
+  background-size: 100%;
   border: solid 1px black;
   width: 100px;
   border-radius: 5px;
@@ -8,7 +9,8 @@
 }
 
 .covered {
-  background-color: black;
+  background-image: url("../img/card-back.png") !important;
+  background-size: 100%;
 }
 
 .hand {
